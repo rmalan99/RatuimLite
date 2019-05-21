@@ -1,0 +1,469 @@
+        .contenedor {
+            display: flex;
+            flex-direction: row;
+        }
+        /* ajustamiento en linea */
+        
+        .ajuste_central_item {
+            justify-content: center
+        }
+        /* ajustamiento en distribucion de expacio */
+        
+        .space_up {
+            align-content: flex-start;
+        }
+        
+        .space_down {
+            align-content: flex-end;
+        }
+        
+        .space_center {
+            align-content: center;
+        }
+        
+        .space_around {
+            align-content: space-around;
+        }
+        
+        .horizon {
+            flex-wrap: wrap;
+        }
+        
+        .vertigo {
+            flex-wrap: nowrap;
+        }
+        
+        .center_text {
+            text-align: center;
+        }
+        
+        .left_text {
+            text-align: left;
+        }
+        
+        .right_text {
+            text-align: right;
+        }
+        /* selecion de colores */
+        /* background*/
+        /* azul */
+        
+        .back_azul01 {
+            background: #3d70c1;
+        }
+        
+        .back_azul02 {
+            background: #2560a5;
+        }
+        
+        .back_azul03 {
+            background: #2d5089;
+        }
+        
+        .back_azul04 {
+            background: #25406d;
+        }
+        
+        .back_azul05 {
+            background: #1c3051;
+        }
+        /* rosa */
+        
+        .back_rosa01 {
+            background: #ff80d5;
+        }
+        
+        .back_rosa02 {
+            background: #ff66cc;
+        }
+        
+        .back_rosa03 {
+            background: #ffadc4;
+        }
+        
+        .back_rosa04 {
+            background: #ff33bb;
+        }
+        
+        .back_rosa05 {
+            background: #ff1ab3;
+        }
+        /* azul_celeste */
+        
+        .back_azul_celeste01 {
+            background: #c8e6ed;
+        }
+        
+        .back_azul_celeste02 {
+            background: #add9e4;
+        }
+        
+        .back_azul_celeste03 {
+            background: #92cbda;
+        }
+        
+        .back_azul_celeste04 {
+            background: #77bed0;
+        }
+        
+        .back_azul_celeste05 {
+            background: #5db1c6;
+        }
+        /* azul_celeste */
+        /* morados0 */
+        
+        .back_morados01 {
+            background: #ba4cc3;
+        }
+        
+        .back_morados02 {
+            background: #aa3db3;
+        }
+        
+        .back_morados03 {
+            background: #93359b;
+        }
+        
+        .back_morados04 {
+            background: #7c2e82;
+        }
+        
+        .back_morados05 {
+            background: #65266a;
+        }
+        /* moredos */
+        /* amarillos */
+        
+        .back_amarillos01 {
+            background: #ffff80;
+        }
+        
+        .back_amarillos02 {
+            background: #ffff66;
+        }
+        
+        .back_amarillos03 {
+            background: #ffff4d;
+        }
+        
+        .back_amarillos04 {
+            background: #ffff33;
+        }
+        
+        .back_amarillos05 {
+            background: #ffff1a;
+        }
+        /* rojos */
+        
+        .back_rojo01 {
+            background: #ff4d4d;
+        }
+        
+        .back_rojo02 {
+            background: #ff3333;
+        }
+        
+        .back_rojo03 {
+            background: #ff1a1a;
+        }
+        
+        .back_rojo04 {
+            background: #ff1a00;
+        }
+        
+        .back_rojo05 {
+            background: #e60000;
+        }
+        /* verde */
+        
+        .back_verde01 {
+            background: #35a640;
+        }
+        
+        .back_verde02 {
+            background: #319b3c;
+        }
+        
+        .back_verde03 {
+            background: #26732e;
+        }
+        
+        .back_verde04 {
+            background: #1a4c1f;
+        }
+        
+        .back_verde05 {
+            background: #0d2610;
+        }
+        /* letras */
+        
+        .letras_azul01 {
+            color: #3d70c1;
+        }
+        
+        .letras_azul02 {
+            color: #2560a5;
+        }
+        
+        .letras_azul03 {
+            color: #2d5089;
+        }
+        
+        .letras_azul04 {
+            color: #25406d;
+        }
+        
+        .letras_azul05 {
+            color: #1c3051;
+        }
+        /* rosa */
+        
+        .letras_rosa01 {
+            color: #ff80d5;
+        }
+        
+        .letras_rosa02 {
+            color: #ff66cc;
+        }
+        
+        .letras_rosa03 {
+            color: #ffadc4;
+        }
+        
+        .letras_rosa04 {
+            color: #ff33bb;
+        }
+        
+        .letras_rosa05 {
+            color: #ff1ab3;
+        }
+        /* azul_celeste */
+        
+        .letras_azul_celeste01 {
+            color: #c8e6ed;
+        }
+        
+        .letras_azul_celeste02 {
+            color: #add9e4;
+        }
+        
+        .letras_azul_celeste03 {
+            color: #92cbda;
+        }
+        
+        .letras_azul_celeste04 {
+            color: #77bed0;
+        }
+        
+        .letras_azul_celeste05 {
+            color: #5db1c6;
+        }
+        /* azul_celeste */
+        /* morados0 */
+        
+        .letras_morados01 {
+            color: #ba4cc3;
+        }
+        
+        .letras_morados02 {
+            color: #aa3db3;
+        }
+        
+        .letras_morados03 {
+            color: #93359b;
+        }
+        
+        .letras_morados04 {
+            color: #7c2e82;
+        }
+        
+        .letras_morados05 {
+            color: #65266a;
+        }
+        /* moredos */
+        /* amarillos */
+        
+        .back_amarillos01 {
+            background: #ffff80;
+        }
+        
+        .back_amarillos02 {
+            background: #ffff66;
+        }
+        
+        .back_amarillos03 {
+            background: #ffff4d;
+        }
+        
+        .back_amarillos04 {
+            background: #ffff33;
+        }
+        
+        .back_amarillos05 {
+            background: #ffff1a;
+        }
+        /* rojos */
+        
+        .letras_rojo01 {
+            color: #ff4d4d;
+        }
+        
+        .letras_rojo02 {
+            color: #ff3333;
+        }
+        
+        .letras_rojo03 {
+            color: #ff1a1a;
+        }
+        
+        .letras_rojo04 {
+            color: #ff1a00;
+        }
+        
+        .letras_rojo05 {
+            color: #e60000;
+        }
+        /* verde */
+        
+        .letras_verde01 {
+            color: #35a640;
+        }
+        
+        .letras_verde02 {
+            color: #319b3c;
+        }
+        
+        .letras_verde03 {
+            color: #26732e;
+        }
+        
+        .letras_verde04 {
+            color: #1a4c1f;
+        }
+        
+        .letras_verde05 {
+            color: #0d2610;
+        }
+        /*????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????*/
+        /*????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????*/
+        
+        @media only screen and (max-width: 767px) and (min-width:320px) {
+            .s_1 {
+                width: 8.33%;
+            }
+            .s_2 {
+                width: 9.09%;
+            }
+            .s_3 {
+                width: 10%;
+            }
+            .s_4 {
+                width: 11.11%;
+            }
+            .s_5 {
+                width: 12.5%;
+            }
+            .s_6 {
+                width: 14.28%;
+            }
+            .s_7 {
+                width: 16.66%;
+            }
+            .s_8 {
+                width: 20%;
+            }
+            .s_9 {
+                width: 25%;
+            }
+            .s_10 {
+                width: 33.33%;
+            }
+            .s_11 {
+                width: 50%;
+            }
+            .s_12 {
+                width: 100%;
+            }
+        }
+        /*????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????*/
+        /*????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????*/
+        
+        @media only screen and (max-width: 1023px) and (min-width:768px) {
+            .m_1 {
+                width: 8.33%;
+            }
+            .m_2 {
+                width: 9.09%;
+            }
+            .m_3 {
+                width: 10%;
+            }
+            .m_4 {
+                width: 11.11%;
+            }
+            .m_5 {
+                width: 12.5%;
+            }
+            .m_6 {
+                width: 14.28%;
+            }
+            .m_7 {
+                width: 16.66%;
+            }
+            .m_8 {
+                width: 20%;
+            }
+            .m_9 {
+                width: 25%;
+            }
+            .m_10 {
+                width: 33.33%;
+            }
+            .m_11 {
+                width: 50%;
+            }
+            .m_12 {
+                width: 100%;
+            }
+        }
+        /*????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????*/
+        /*????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????*/
+        
+        @media only screen and (min-width:1024px) {
+            .l_1 {
+                width: 8.33%;
+            }
+            .l_2 {
+                width: 9.09%;
+            }
+            .l_3 {
+                width: 10%;
+            }
+            .l_4 {
+                width: 11.11%;
+            }
+            .l_5 {
+                width: 12.5%;
+            }
+            .l_6 {
+                width: 14.28%;
+            }
+            .l_7 {
+                width: 16.66%;
+            }
+            .l_8 {
+                width: 20%;
+            }
+            .l_9 {
+                width: 25%;
+            }
+            .l_10 {
+                width: 33.33%;
+            }
+            .l_11 {
+                width: 50%;
+            }
+            .l_12 {
+                width: 100%;
+            }
+        }
